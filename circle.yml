@@ -9,5 +9,6 @@ dependencies:
 test:
   override:
     - cd common; npm link
-    - cd electron; npm link ../common
+    - cd ..
+    - cd electron; npm link ../common/
     - cd electron; npm run test
