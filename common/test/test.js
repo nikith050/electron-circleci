@@ -7,4 +7,4 @@ describe('Tests', function() {
 			assert.equal(calc.add(2, 2), 4);
 		});
 	});
-});
+})
