@@ -4,10 +4,8 @@ machine:
 
 dependencies:
   override:
-    - cd common
-    - npm install
+    - npm ./common/install
 
 test:
-  override:
-    - cd common 
-    - npm test
+  override: 
+    - npm ./common/test
