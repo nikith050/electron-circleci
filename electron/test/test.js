@@ -1,4 +1,4 @@
-var assert = require('common/assert');
+var assert = require('common/node_modules/assert');
 var calc = require('common');
 
 describe('Tests', function() {
