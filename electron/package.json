@@ -1,0 +1,10 @@
+{
+  "name": "electron",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "../common/node_modules/.bin/mocha"
+  },
+  "author": "",
+  "license": "ISC"
+}
