@@ -9,6 +9,5 @@ dependencies:
 test:
   override:
     - cd common; npm link
-    - cd ..
-    - cd electron; npm link ../common/
+    - cd electron; npm link /home/ubuntu/testing-ci/common
     - cd electron; npm run test
